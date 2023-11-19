@@ -1,6 +1,6 @@
 public class Counter {
     
-    private int count;
+    private long count;
 
     public Counter () {
         count = 0;
@@ -10,7 +10,7 @@ public class Counter {
         count++;
     }
 
-    public int getCount() {
+    public long getCount() {
         return count;
     }
 }
