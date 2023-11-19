@@ -75,7 +75,7 @@ public class SortDriver {
         output += "................ " + list[list.length - 1];
         System.out.println(output);
 
-        System.out.print("#" + sortType + " comparisons: " + count.getCount());
+        System.out.println("#" + sortType + " comparisons: " + count.getCount());
 
         keyboard.close();
     }
