@@ -68,12 +68,10 @@ public class SortDriver {
                 break;
         }
 
-        String output = "";
-        for (int count1 = 0; count1 < 5 && count1 < list.length - 1; count1++) {
-            output += list[count1] + " ";
+        for(int num : list) {
+            System.out.print(num + " ");
         }
-        output += "................ " + list[list.length - 1];
-        System.out.println(output);
+        System.out.println();
 
         System.out.println("#" + sortType + " comparisons: " + count.getCount());
 
