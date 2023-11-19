@@ -251,7 +251,7 @@ public class SortDriver {
     }
 
     public static int SplitRP(int[] values, int low, int high, Counter count) {
-        int splitPoint = (int) Math.random() * (high - low) + low;
+        int splitPoint = (int) (Math.random() * (high - low)) + low;
         int splitVal = values[splitPoint];
         Swap(values, low, splitPoint);
         int left = low + 1;
